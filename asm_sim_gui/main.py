@@ -1,4 +1,4 @@
-from src_2.gui.main import AssemblySimulatorGUI
+from asm_sim_gui.gui.main import AssemblySimulatorGUI
 from memory import initialize_registers, preload_ram
 
 def main():

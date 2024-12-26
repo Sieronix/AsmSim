@@ -1,9 +1,9 @@
 import tkinter as tk
-from src_2.gui.components.console import Console
-from src_2.gui.components.left_panel import LeftPanel
-from src_2.gui.components.center_panel import CenterPanel
-from src_2.gui.components.right_panel import RightPanel
-from src_2.gui.components.controls import Controls
+from asm_sim_gui.gui.components.console import Console
+from asm_sim_gui.gui.components.left_panel import LeftPanel
+from asm_sim_gui.gui.components.center_panel import CenterPanel
+from asm_sim_gui.gui.components.right_panel import RightPanel
+from asm_sim_gui.gui.components.controls import Controls
 
 class AssemblySimulatorGUI:
     def __init__(self, registers, memory):
